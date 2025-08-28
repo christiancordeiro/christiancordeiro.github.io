@@ -7,57 +7,37 @@ categories: conceito principios
 
 # Princípios de Programação: Entendendo DRY e KISS
 
-Programação é muito além de apenas escrever código. É sobre resolver problemas complexos de forma eficiente.  
-Para auxiliar no desenvolvimento de software, um conjunto de conceitos e princípios foi criado e comprovado pela comunidade.  
+Programação é muito além de apenas escrever código. É sobre resolver problemas complexos de forma eficiente. Para auxiliar no desenvolvimento de software, um conjunto de conceitos e princípios foram criados e comprovado pela comunidade. Alguns desses princípios buscam a escrita de código mais limpa, o que facilita o entendimento e a depuração. Isso é especialmente útil quando se trabalha em equipe.
 
-Alguns desses princípios buscam a escrita de **código mais limpa**, o que facilita o entendimento e a depuração.  
-Isso é especialmente útil quando se trabalha em equipe.
-
-Neste artigo, vamos explorar **dois desses princípios** e entender por que eles são considerados elementos cruciais para o processo de desenvolvimento de software.
+Neste post, vamos explorar dois desses princípios e entender por que eles são considerados elementos cruciais para o processo de desenvolvimento de software.
 
 ---
 
 ## O que é DRY?
 
-**DRY** é a sigla para *"Don't Repeat Yourself"* (**Não se Repita**) e é um dos princípios de programação mais fundamentais.
+DRY é a sigla para "Don't Repeat Yourself" (Não se Repita) e é um dos princípios de programação mais fundamentais.
 
-Esse princípio sugere que programadores devem **reduzir ao máximo a repetição de código**, evitando redundâncias.  
-Ao aplicar o DRY, é possível eliminar duplicações e escrever um código mais limpo.  
+Ele sugere que programadores devem reduzir ao máximo a repetição de código, evitando redundâncias. Ao ter esse princípio em mente, você pode eliminar a duplicação e escrever um código mais limpo. O ideal, por exemplo, é dividir o código em segmentos menores e utilizar métodos que podem ser chamados em qualquer parte do sistema sempre que necessário.
 
-A prática mais comum é dividir o código em **segmentos menores** e utilizar **métodos reutilizáveis**, que podem ser chamados em diferentes partes do sistema sempre que necessário.
-
-Além disso, o princípio DRY garante que qualquer **modificação feita em um único elemento** não precise ser alterada em outros locais não relacionados.  
-
-> **Exemplo prático:** a criação de um método utilizado em várias partes do sistema.  
-> Caso seja necessário alterar esse método, a atualização refletirá automaticamente em todos os pontos que o utilizam, sem precisar modificar cada ocorrência manualmente.
+O princípio DRY também garante que qualquer modificação feita em um único elemento do código não precise ser alterada em outros elementos logicamente não relacionados. Por exemplo, a criação de um método que é usado em todo o sistema. Se for necessário fazer uma mudança nesse método, a alteração irá refletir em todas as execuções do código, sem a necessidade de modificar cada local onde ele é utilizado.
 
 ---
 
 ## O que é KISS?
 
-O princípio **KISS** (*"Keep It Simple, Stupid"* — Mantenha-o Simples, Estúpido) enfatiza que **todo design e implementação de software deve prezar pela simplicidade**.
+O princípio KISS ("Keep It Simple, Stupid" - Mantenha-o Simples, Estúpido) alerta que todo design e implementação de software deve prezar pela simplicidade.
 
-A ideia central é que **uma solução simples e compreensível** possui mais valor do que uma solução "inteligente" porém excessivamente complexa.  
+Ele afirma que uma solução mais simples e facilmente compreensível tem mais valor do que uma solução "inteligente" e complexa. Isso acontece porque, muitas vezes, desenvolvedores se sentem tentados a criar soluções que utilizam um nível de complexidade desnecessário. Nesse caso, uma solução é melhor quando se usa menos herança, polimorfismo ou um número menor de classes, por exemplo.
 
-Muitas vezes, desenvolvedores caem na armadilha de criar soluções com um nível desnecessário de complexidade, utilizando recursos avançados sem real necessidade.
+Isso não significa que você nunca deve usar esses recursos. Em vez disso, eles só devem ser empregados quando houver uma vantagem substancial. O resultado da aplicação do KISS é um código mais limpo, funcional e de fácil depuração.
 
-> **Exemplo:** usar herança, polimorfismo ou criar múltiplas classes sem que isso traga um ganho significativo.
-
-Isso não significa que você **nunca deve usar** esses recursos.  
-O princípio KISS apenas reforça que eles devem ser aplicados **somente quando houver uma vantagem clara e substancial**.  
-
-O resultado da aplicação do KISS é um **código mais limpo, funcional e de fácil depuração**.
-
+---
 
 ## Vantagens do KISS
 
-- **Otimização de tempo:**  
-  Uma estrutura de software mais simples torna os testes (incluindo os automatizados) mais fáceis e rápidos de executar.
+- **Otimização de tempo:** Uma estrutura de software mais simples torna os testes (incluindo os automatizados) mais fáceis e rápidos de executar.
+- **Melhor Experiência do Usuário:** A simplicidade também reflete na experiência do usuário, que espera uma jornada intuitiva e sem atritos, com resultados rápidos.
 
-- **Melhor experiência do usuário:**  
-  A simplicidade também reflete na experiência do usuário, que espera uma jornada intuitiva e sem atritos, com resultados rápidos.
-
----
 
 ✍️ **Conclusão**  
 Os princípios **DRY** e **KISS** são fundamentais para quem deseja escrever **códigos limpos, escaláveis e fáceis de manter**.  

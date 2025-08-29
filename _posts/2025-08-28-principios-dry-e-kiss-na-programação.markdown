@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Princípios DRY e KISS na Programação"
-date:   2025-08-26 19:00:00 -0300
+date:   2025-08-28 19:00:00 -0300
 categories: conceito principios
 ---
 

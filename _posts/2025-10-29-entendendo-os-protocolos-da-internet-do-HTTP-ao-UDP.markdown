@@ -13,6 +13,8 @@ Um protocolo é como um acordo entre duas partes que querem se comunicar. Ele de
 
 Imagine a brincadeira de *telefone sem fio* que fazíamos quando criança. Uma criança sussurrava uma frase para a próxima, e assim por diante, até chegar ao ultimo participante. O problema? A mensagem quase sempre chegava distorcida da original. Isso acontece por que não havia um algoritmo que garantisse a integridade da informação, e é exatamente esse tipo de problema que os protocolos da internet precisam resolver.
 
+---
+
 ## Principais protocolos
 **HTTP – Hypertext Transfer Protocol**
 É o protocolo usado para acessar páginas da web. Ele permite a transferência de documentos que podem conter referências para outros documentos — como links, imagens e vídeos. Toda vez que você acessa um site, está usando HTTP (ou sua versão segura, HTTPS).
@@ -22,6 +24,8 @@ Usado para transferência de arquivos entre computadores. É comum em servidores
 
 **SMTP – Simple Mail Transfer Protocol**
 Um dos protocolos responsáveis pelo envio de e-mails. Ele define como as mensagens devem ser formatadas e entregues entre servidores de correio eletrônico.
+
+---
 
 ## Garantindo a entrega: TCP vs UDP
 
@@ -36,6 +40,7 @@ Com o UDP:
 
 Essas falhas são toleráveis porque os humanos conseguem compensar: repetimos o que foi dito, ajustamos o timing e etc... O UDP aposta nessa flexibilidade para entregar velocidade.
 
+---
 
 ## Conclusão
 Os protocolos de rede são como os bastidores da internet: invisíveis, mas absolutamente essenciais. Eles garantem que cada informação chegue ao seu destino com precisão ou velocidade, dependendo da necessidade.
